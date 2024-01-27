@@ -35,6 +35,42 @@
         "lng": -3.7133789062500004
       },
       "id": 17806751
+    },
+    {
+      "cityName": "Ligurian Sea Cetacean Sanctuary",
+      "date": "2024-01-27T17:15:22.022Z",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "notes": "Shit on street",
+      "position": {
+        "lat": "43.6599240747891",
+        "lng": "7.382812500000001"
+      },
+      "id": 98443200
+    },
+    {
+      "cityName": "Budapest",
+      "date": "2024-01-27T17:16:29.757Z",
+      "country": "Hungary",
+      "emoji": "🇭🇺",
+      "notes": "Met diktator Orban",
+      "position": {
+        "lat": "47.48380086737799",
+        "lng": "19.039306640625004"
+      },
+      "id": 98443201
+    },
+    {
+      "cityName": "Kosice",
+      "date": "2024-01-27T17:21:46.488Z",
+      "country": "Slovakia",
+      "emoji": "🇸🇰",
+      "notes": "Went for a snake",
+      "position": {
+        "lat": "48.72720881940671",
+        "lng": "21.258544921875"
+      },
+      "id": 98443202
     }
   ]
 }
