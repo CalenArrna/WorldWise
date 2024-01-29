@@ -5,13 +5,13 @@ const AuthContext = createContext();
 const initialValue = { user: null, isAuthenticated: false };
 
 const FAKE_USER = {
-  name: "Jack",
-  email: "jack@example.com",
+  name: "Csaba",
+  email: "csaba@example.com",
   password: "qwerty",
   avatar: "https://i.pravatar.cc/100?u=zz",
 };
 
-function reducer({ state, action }) {
+function reducer(state, action) {
   switch (action.type) {
     case "login":
       return { ...state, user: action.payload, isAuthenticated: true };
@@ -31,6 +31,8 @@ function AuthProvider({ children }) {
   function login(email, password) {
     if (email === FAKE_USER.email && password === FAKE_USER.password) {
       dispatch({ type: "login", payload: FAKE_USER });
+    } else {
+      alert("Can't log you in. Email or password is incorrect!");
     }
   }
   function logout() {
@@ -38,7 +40,7 @@ function AuthProvider({ children }) {
   }
 
   return (
-    <AuthContext.Provider value={(user, isAuthenticated, login, logout)}>
+    <AuthContext.Provider value={{ user, isAuthenticated, login, logout }}>
       {children}
     </AuthContext.Provider>
   );
