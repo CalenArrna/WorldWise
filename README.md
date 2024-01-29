@@ -9,9 +9,12 @@ After login in the left side there will be cities and countries which I travelle
 
 # Set up
 To try the application, you need to download it and run some scripts in the terminal:
-Install dependencies:
+
+Step 1 - Install dependencies:
+
 npm install
 
-Run:
+Step 2 - Run:
+
 npm run dev
 npm run server
