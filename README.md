@@ -17,4 +17,5 @@ npm install
 Step 2 - Run:
 
 npm run dev
+
 npm run server
